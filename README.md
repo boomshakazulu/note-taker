@@ -12,20 +12,20 @@
 ## Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Credits](#credits)
+3. [Contributing](#contributing)
 4. [Questions](#questions)
   
 ---
 
 ## Installation:
 
-  This application requires node.js with express.js installed, Or you can use the live link.
+  This application requires node.js with express.js installed, Or you can use the [live link](https://ancient-hollows-40041-da3021b3336d.herokuapp.com/).
   
 ---
 
 ## Usage
 
-  To use the app simply navigate to our live link here. input your task and save it using the save botton in the top right. To delete a task click the red trash icon on the task card. Click on any task to view its details.
+  To use the app simply navigate to our [live link here](https://ancient-hollows-40041-da3021b3336d.herokuapp.com/). input your task and save it using the save botton in the top right. To delete a task click the red trash icon on the task card. Click on any task to view its details.
 
 ---
 
