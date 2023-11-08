@@ -25,7 +25,9 @@
 
 ## Usage
 
-  To use the app simply navigate to our [live link here](https://ancient-hollows-40041-da3021b3336d.herokuapp.com/). input your task and save it using the save botton in the top right. To delete a task click the red trash icon on the task card. Click on any task to view its details.
+  To use the app simply navigate to our [live link here](https://ancient-hollows-40041-da3021b3336d.herokuapp.com/). input your task and save it using the save botton in the top right. To delete a task click the red trash icon on the task card. Click on any task to view its details.<br>
+  ![Capture](https://github.com/boomshakazulu/note-taker/assets/120769113/689c3737-7ee5-4739-82b2-3b48a4011d32)
+
 
 ---
 
