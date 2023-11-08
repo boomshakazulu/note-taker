@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "Get milk",
+        "text": "Go to the store, get milk",
+        "id": "f199"
+    },
+    {
+        "title": "excercise",
+        "text": "do 532 jumping jacks and go for a run",
+        "id": "4f38"
+    },
+    {
+        "title": "drink a smoothie",
+        "text": "have a smoothie because you deserve it!",
+        "id": "1e7b"
+    }
+]
