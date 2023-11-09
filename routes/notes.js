@@ -1,11 +1,11 @@
 const notes = require('express').Router()
 const {readAndAppend, readFromFile, writeToFile} = require('../helper/fsUtils')
 const uuid = require('../helper/uuid');
-
+//reads existing notes and parses the data
 notes.get('/', (req,res)=>{
     readFromFile('./db/db.json').then((data)=> res.json(JSON.parse(data)))
 })
-
+//reads and appends the note to the page
 notes.post('/', (req,res) => {
    const {title, text} = req.body
 
@@ -23,7 +23,7 @@ notes.post('/', (req,res) => {
     res.errored('error in adding note')
    }
 })
-//
+//deletes notes after parsing and using the id number for removal
 notes.delete('/:id', (req, res)=>{    
     readFromFile('./db/db.json').then((data)=> JSON.parse(data))
     .then(data=>{
@@ -35,5 +35,6 @@ notes.delete('/:id', (req, res)=>{
         res.json('note deleted')
     })
 })
+//export for route
 module.exports = notes
 
